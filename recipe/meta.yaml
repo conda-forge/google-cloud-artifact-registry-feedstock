@@ -1,5 +1,5 @@
 {% set name = "google-cloud-artifact-registry" %}
-{% set version = "1.8.4" %}
+{% set version = "1.11.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-artifact-registry-{{ version }}.tar.gz
-  sha256: 2deba5c9c0065cf8e2e63c547e93a4921867d57261d57d4a756be1031529e228
+  sha256: 123c01558abb577f5a6ff550126cac7e2bb011b3248c25eae68fa3337d4daf02
 
 build:
   noarch: python
